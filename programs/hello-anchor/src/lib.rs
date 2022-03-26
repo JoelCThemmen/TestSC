@@ -20,6 +20,7 @@ pub mod hello_anchor {
 #[derive(Default)]
 pub struct MyAccount{
     data: u64;
+    moredate: u64;
 }
 
 #[derive(Accounts)]
